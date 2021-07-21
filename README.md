@@ -6,7 +6,11 @@ requirements:
 python 3.8
 
 tensorflow or tenserflow-gpu https://www.tensorflow.org/install/gpu
+
 keras
+
 pillow
+
 opencv-python
+
 openpyxl
