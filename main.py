@@ -106,7 +106,7 @@ def imageBrowse():
     # Presenting user with a pop-up for directory selection. initialdir argument is optional
     # Retrieving the user-input destination directory and storing it in destinationDirectory
     # Setting the initialdir argument is optional. SET IT TO YOUR DIRECTORY PATH
-    openDirectory = filedialog.askopenfilename(initialdir="C:/Users/madar/Downloads/small-projects-main/small-projects-main")
+    openDirectory = filedialog.askopenfilename(initialdir="Datasets")
 
     # Displaying the directory in the directory textbox
     imagePath.set(openDirectory)
@@ -133,7 +133,7 @@ def Capture():
     # Storing the date in the mentioned format in the image_name variable
     image_name = datetime.now().strftime('%d-%m-%Y %H-%M-%S')
 
-    image_path=r'C:\Users\madar\Documents\Python\SavedPics'
+    image_path= 'SavedPics'
     # Concatenating the image_path with image_name and with .jpg extension and saving it in imgName variable
     imgName = image_path + '/' + image_name + ".jpg"
 
@@ -223,7 +223,7 @@ def Upload(prev_image):
 def Predict(prev_image):
     global prediction
 
-    new_model = load_model('model.h5')
+    new_model = load_model('Models\cnn_v1_model.h5')
     new_model.summary()
     test_image = image.load_img(
         prev_image,
