@@ -10,6 +10,8 @@ https://www.kaggle.com/manishkc06/food-classification-burger-pizza-coke - 5400 u
 
 https://www.kaggle.com/cristeaioan/ffml-dataset - 1281 images of 423 foods
 
+https://www.kaggle.com/trolukovich/food11-image-dataset -  16643 food images grouped in 11 major food categories.
+
 
 requirements:
 python 3.8
