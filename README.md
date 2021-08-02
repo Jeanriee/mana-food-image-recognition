@@ -8,6 +8,8 @@ http://foodcam.mobi/dataset.html -256 classes
 
 https://www.kaggle.com/manishkc06/food-classification-burger-pizza-coke - 5400 unique values
 
+https://www.kaggle.com/cristeaioan/ffml-dataset - 1281 images of 423 foods
+
 
 requirements:
 python 3.8
