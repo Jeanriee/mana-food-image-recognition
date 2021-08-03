@@ -4,6 +4,8 @@ https://code.visualstudio.com/docs/python/python-tutorial
 
 https://git-scm.com/
 
+https://desktop.github.com/
+
 dataset:
 
 https://www.kaggle.com/kritikseth/fruit-and-vegetable-image-recognition -36 classes
