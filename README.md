@@ -1,3 +1,7 @@
+https://www.python.org/downloads/release/python-3810/
+
+https://code.visualstudio.com/docs/python/python-tutorial
+
 dataset:
 
 https://www.kaggle.com/kritikseth/fruit-and-vegetable-image-recognition -36 classes
