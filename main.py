@@ -29,7 +29,7 @@ def show_frame(frame):
 
 
 def createwidgets(frame):
-    root.cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+    root.cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
     width_1, height_1 = 640, 480
     root.cap.set(cv2.CAP_PROP_FRAME_WIDTH, width_1)
     root.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, height_1)
@@ -174,7 +174,7 @@ def StopCAM():
 
 def StartCAM():
     # Creating object of class VideoCapture with webcam index
-    root.cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+    root.cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
 
     # Setting width and height
     width_1, height_1 = 640, 480
